@@ -3,14 +3,15 @@
  }
  
  body {
-     background-color: black;
+     background-color: lightblue;
      font-family: 'Alegreya Sans', sans-serif;
  }
  
  #container {
      width: 90%;
-     background-color: white;
-     margin: 0 auto;
+     background-color: lightskyblue;
+     color: blue;
+     margin: auto;
  }
  
  h1, h2, h3, h4, h5, h6 {
@@ -26,7 +27,7 @@
  
  #search {
      float: left;
-     padding: 1.25em;
+     padding: 1.6em;
  }
  
  #search input {
@@ -40,7 +41,7 @@
  }
  
  #navigation {
-     background-color: rgb(255, 187, 0);
+     background-color: blue;
  }
  
  #navigation ul {
@@ -55,29 +56,27 @@
  }
  
  #navigation li:hover {
-     background-color: white;
+     background-color: black;
      cursor: pointer;
  }
  
  main {
      width: 100%;
      min-height: 350px;
-     background-color: black;
+     background-color: lightblue;
  }
  
  main > aside {
      float: left;
      width: 20%;
-     background-color: rgb(255, 187, 0);
-     padding: 20px;
+     padding: 0px;
  }
  
  main > section {
      float: left;
      width: 80%;
      padding: 20px;
-     background-color: black;
-     color: white;
+     color: lightblue;
  }
 
  aside select {
@@ -98,8 +97,8 @@
 
  .teacher {
      width: 30%;
-     background-color: white;
-     color: black;
+     background-color:lightskyblue;
+     color:blue;
      float: left;
      margin: 0 20px 20px 0;
  }
